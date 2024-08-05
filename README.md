@@ -73,13 +73,13 @@ You can't "capture" a zombie to look for a cure. You just play the game as you n
 
 # CONTRIBUTORS:
 
-Bloodmoon Server status		Kanaverum
+Bloodmoon Server status:		Kanaverum
 
-Hybrid Action Skills		JoeSloeMoe
+Hybrid Action Skills:			JoeSloeMoe
 
-No Traders mod				PULLMYLEVER
+No Traders mod:					PULLMYLEVER
 
-WMMGameOptions				w00kien00kie
+WMMGameOptions:					w00kien00kie
 
 
 Also thanks to Frantic_Dan and redbeardt for base xml code for HUD changes, and thanks to Khaine for basis of the action skills feature.
