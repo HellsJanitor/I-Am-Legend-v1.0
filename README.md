@@ -5,9 +5,9 @@
 
 >[!NOTE]
 >
->## Changelog/updates for v 1.0.1
+>## v 2.0.0
 >
->The loot probability for books and magazines is now tied to the MAGAZINE for that tool or weapon. The more magazines you read, the better chance of finding books or magazines for that tool or weapon.	
+>Updated for 7 Days to Die v1.0 with normal, feral, and radiated custom Darkseeker models.	
 
 ## SYNOPSIS:
 Six billion people on Earth when the infection hit...
