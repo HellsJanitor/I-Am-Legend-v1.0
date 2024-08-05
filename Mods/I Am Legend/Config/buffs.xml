@@ -1,0 +1,53 @@
+<Hells_Janitor>
+	<append xpath="//buff[@name='buffStatusCheck01']">
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffKillNightSpawns"/>
+			<requirement name="IsDay"/>
+			<requirement name="CVarCompare" cvar="is_bloodmoon" operation="Equals" value="0"/>
+		</effect_group>
+		<effect_group compare_type="or">
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffKillNightSpawns"/>
+			<requirement name="!IsDay"/>
+			<requirement name="CVarCompare" cvar="is_bloodmoon" operation="Equals" value="1"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/buffs">
+		<buff name="buffKillNightSpawns" hidden="true">
+			<duration value="0"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_kill_nightspawns"/>
+			</effect_group>
+		</buff>
+		<buff name="buffSpawnNightHorde" hidden="true">
+			<duration value="0"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="nightspawn_horde_sequence"/>
+			</effect_group>
+		</buff>
+	</append>
+	
+	<remove xpath="//buff[@name='buffDrunkGrandpasAwesomeSauce']/effect_group//passive_effect[@name='BarteringBuying']"/>
+	<remove xpath="//buff[@name='buffDrunkGrandpasAwesomeSauce']/effect_group//passive_effect[@name='BarteringSelling']"/>
+	<append xpath="//buff[@name='buffDrunkGrandpasAwesomeSauce']">
+		<effect_group>
+			<passive_effect name="AttributeLevel" tags="attFortitude" operation="base_add" value="2"/>
+			<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="2"/>
+			<passive_effect name="AttributeLevel" tags="attPerception" operation="base_add" value="2"/>
+			<passive_effect name="AttributeLevel" tags="attAgility" operation="base_add" value="2"/>
+			<passive_effect name="AttributeLevel" tags="attIntellect" operation="base_add" value="2"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			<triggered_effect trigger="onSelfBuffStack" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+		</effect_group>
+	</append>
+	
+	<!-- *** newbie coat removed at level 1 *** -->
+	<set xpath="/buffs/buff[@name='buffNewbieCoat']/effect_group/triggered_effect[@trigger='onSelfBuffUpdate']/requirement[@name='PlayerLevel']/@value">0</set>
+	<set xpath="/buffs/buff[@name='buffNearDeathRegen']/effect_group/triggered_effect[@action='RemoveAllNegativeBuffs']/requirement[@name='PlayerLevel']/@value">1</set>
+	<set xpath="/buffs/buff[@name='buffNearDeathRegen']/effect_group/triggered_effect[@action='RemoveBuff']/requirement[@name='PlayerLevel']/@value">1</set>
+	<remove xpath="/buffs/buff[@name='buffNearDeathRegen']/effect_group/passive_effect[@name='HealthChangeOT']"/> <!-- You may want this too?? -->
+	<remove xpath="/buffs/buff[@name='buffNearDeathProtection']/effect_group/passive_effect[@name='BuffResistance']"/> <!-- Removes invisible buff section that gives resistance to negative buffs -->
+	
+	<set xpath="//buff[@name='buffPlayerFallingDamage']/effect_group/triggered_effect//requirement[@name='PlayerItemCount']/@item_name">oldCash</set>
+</Hells_Janitor>

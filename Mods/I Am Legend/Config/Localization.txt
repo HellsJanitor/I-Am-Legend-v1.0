@@ -1,0 +1,104 @@
+Key,English
+tutorialTipQuest01,"Six billion people on Earth when the infection hit. The Krippin Virus had a 90 percent kill rate; that's 5.4 BILLION people, dead. Crashed and bled out. Dead. Less than one-percent immunity. That left 12 million healthy people, like you.\n\nThe other 588 MILLION turned into Dark Seekers, and then they got hungry, and they killed and fed on everybody. EVERYBODY!\n\nEvery single person that you or I has ever known is dead! DEAD!\n\nTHERE IS NO GOD!\n\n[32cd32]ABOUT THE 'I AM LEGEND' MOD.[-]\n\nZombies (Dark Seekers) [cd5c5c]do not[-] spawn in the wild during the day. You are free to move about the world, but be warned...\n\n[cd5c5c]Buildings are DANGEROUS[-]. They are filled with fast-moving enemies, and you'll need to be careful when looking for supplies.\n\nThere are [cd5c5c]no traders[-]; all trader compounds have been abandoned.\n\nWhen night falls, you'll want to be [ffc40c]inside[-] and [ffc40c]well hidden[-]. Dark Seekers will be out in force, and they're hungry ..."
+tutorialTipQuest01_title,I Am Legend
+tutorialTipQuest02,"In 2009 a deadly virus burned through our civilization, pushing humankind to the edge of extinction.\n\nDr. Robert Neville dedicated his life to the discovery of a cure, and the restoration of humanity.\n\nOn September 9th, 2012, at approximately 8:49 p.m. he discovered that cure; and at 8:52 he gave his life to defend it.\n\nWe are his legacy.\n\nThis is his legend."
+tutorialTipQuest02_title,Light up the darkness
+IAmLegendTip,"In 2009 a deadly virus burned through our civilization, pushing humankind to the edge of extinction.\n\nDr. Robert Neville dedicated his life to the discovery of a cure, and the restoration of humanity.\n\nOn September 9th, 2012, at approximately 8:49 p.m. he discovered that cure; and at 8:52 he gave his life to defend it.\n\nWe are his legacy.\n\nThis is his legend."
+IAmLegendTip_title,Light up the darkness
+IAmLegendTip02,"There are 4 types of Dark Seeker; [cd5c5c]Normal[-] (both male & female), [ed9121]Hunter[-], [ffc40c]Alpha[-] (male & female), and [6a5acd]Spitter[-].\n\n[cd5c5c]Normal[-] Dark Seekers are various humans, infected by KV. They have different characteristics, such as movement speed, movement type, and health, but are effectively the 'grunts' of the Dark Seekers.\n\n[ed9121]Hunters[-] move on all fours, can jump much bigger distances, and can launch a leaping attack on unsuspecting individuals.\n\n[ffc40c]Alphas[-] are bigger, tougher, and look more skeletal, but can be just as fast.\n\n[6a5acd]Spitters[-] have evolved to launch acidic projectiles at whatever they're hunting, and when damaged, have a tendency to explode, damaging anything around them. They are more skeletal than 'normals', but they look more animalistic, with mandibles instead of a mouth.\n\nThere are also 2 sub-variants of these creatures. [ffc40c]Feral[-], characterized by glowing yellow eyes, and MUCH tougher than non-ferals; and [008000]Radiated[-], characterized by their glowing green skin. As tough as feral variants, Radiated Dark Seekers can regenerate health at an alarming rate."
+IAmLegendTip02_title,Dark Seekers
+
+survivalTip,Your current health is displayed in red and maximum health in grey. Damaged health or your maximum health cap is displayed in black.\n\nEat food or use medicine to restore health. Cure afflictions like abrasions to restore your maximum health cap.\n\nYour current stamina is displayed in pale yellow and maximum stamina is grey. Hunger lowers your maximum stamina cap and is displayed in black.\n\nYour health and stamina recovery rate is determined by your hydration level.\nFood and water bars are located to the right of your belt slots / hotbar and the stats are found on the character page in the core and extended character stats tabs. Visible buffs will notify you if lack of food or water starts affecting you.
+buffDrunkGrandpasAwesomeSauceDesc,It tastes like brass or ass but you feel incredible.\n+2 to all attributes ... for a while.
+drinkJarGrandpasAwesomeSauceDesc,Apocalypse getting you down?\nTake a shot of Grandpa's Awesome Sauce\nand get an instant pick-me-up!\n\n+2 to all attributes for the duration of the buff.
+
+cntVendingMachineChallengeRewards,Challenge Rewards Vending Machine
+oldCashDesc,This is legal tender. Use it in vending machines found around the map.
+perkGreatHeistAdrenalineFallLongDesc,Adrenaline Fall: Use adrenaline to your full advantage. You can fall up to 15 meters without taking damage while carrying 5000 cash or more.
+perkLuckyLooterDukesDesc,Find more cash in loot.
+perkLuckyLooterDukesLongDesc,"Cash: If you know where to look, you can find money just laying around. Find more cash in loot."
+
+zombieArlene,Female Dark Seeker
+zombieArleneFeral,Feral Female Dark Seeker
+zombieArleneRadiated,Radiated Female Dark Seeker
+zombieBiker,Alpha Dark Seeker
+zombieBikerFeral,Feral Alpha Dark Seeker
+zombieBikerRadiated,Radiated Alpha Dark Seeker
+zombieBoe,Male Dark Seeker
+zombieBoeFeral,Feral Male Dark Seeker
+zombieBoeRadiated,Radiated Male Dark Seeker
+zombieBowler,Alpha Dark Seeker
+zombieBowlerFeral,Feral Alpha Dark Seeker
+zombieBowlerRadiated,Radiated Alpha Dark Seeker
+zombieBurnt,Male Dark Seeker
+zombieBurntFeral,Feral Male Dark Seeker
+zombieBurntRadiated,Radiated Male Dark Seeker
+zombieBusinessMan,Male Dark Seeker
+zombieBusinessManFeral,Feral Male Dark Seeker
+zombieBusinessManRadiated,Radiated Male Dark Seeker
+zombieDarlene,Female Dark Seeker
+zombieDarleneFeral,Feral Female Dark Seeker
+zombieDarleneRadiated,Radiated Female Dark Seeker
+zombieFatCop,Dark Seeker Spitter
+zombieFatCopFeral,Feral Dark Seeker Spitter
+zombieFatCopRadiated,Radiated Dark Seeker Spitter
+zombieFatHawaiian,Alpha Dark Seeker
+zombieFatHawaiianFeral,Feral Alpha Dark Seeker
+zombieFatHawaiianRadiated,Radiated Alpha Dark Seeker
+zombieFemaleFat,Alpha Dark Seeker
+zombieFemaleFatFeral,Feral Alpha Dark Seeker
+zombieFemaleFatRadiated,Radiated Alpha Dark Seeker
+zombieJanitor,Male Dark Seeker
+zombieJanitorFeral,Feral Male Dark Seeker
+zombieJanitorRadiated,Radiated Male Dark Seeker
+zombieJoe,Male Dark Seeker
+zombieJoeFeral,Feral Male Dark Seeker
+zombieJoeRadiated,Radiated Male Dark Seeker
+zombieLab,Female Dark Seeker
+zombieLabFeral,Feral Female Dark Seeker
+zombieLabRadiated,Radiated Female Dark Seeker
+zombieLumberjack,Alpha Dark Seeker
+zombieLumberjackFeral,Feral Alpha Dark Seeker
+zombieLumberjackRadiated,Radiated Alpha Dark Seeker
+zombieMaleHazmat,Male Dark Seeker
+zombieMaleHazmatFeral,Feral Male Dark Seeker
+zombieMaleHazmatRadiated,Radiated Male Dark Seeker
+zombieMarlene,Female Dark Seeker
+zombieMarleneFeral,Feral Female Dark Seeker
+zombieMarleneRadiated,Radiated Female Dark Seeker
+zombieMoe,Male Dark Seeker
+zombieMoeFeral,Feral Male Dark Seeker
+zombieMoeRadiated,Radiated Male Dark Seeker
+zombieNurse,Female Dark Seeker
+zombieNurseFeral,Feral Female Dark Seeker
+zombieNurseRadiated,Radiated Female Dark Seeker
+zombiePartyGirl,Female Dark Seeker
+zombiePartyGirlFeral,Feral Female Dark Seeker
+zombiePartyGirlRadiated,Radiated Female Dark Seeker
+zombieSkateboarder,Male Dark Seeker
+zombieSkateboarderFeral,Feral Male Dark Seeker
+zombieSkateboarderRadiated,Radiated Male Dark Seeker
+zombieSoldier,Male Dark Seeker
+zombieSoldierFeral,Feral Male Dark Seeker
+zombieSoldierRadiated,Radiated Male Dark Seeker
+zombieSpider,Dark Seeker Hunter
+zombieSpiderFeral,Feral Dark Seeker Hunter
+zombieSpiderRadiated,Radiated Dark Seeker Hunter
+zombieSteve,Male Dark Seeker
+zombieSteveCrawler,Dark Seeker Crawler
+zombieSteveCrawlerFeral,Feral Dark Seeker Crawler
+zombieSteveCrawlerRadiated,Radiated Dark Seeker Crawler
+zombieSteveFeral,Feral Male Dark Seeker
+zombieSteveRadiated,Radiated Male Dark Seeker
+zombieTomClark,Male Dark Seeker
+zombieTomClarkFeral,Feral Male Dark Seeker
+zombieTomClarkRadiated,Radiated Male Dark Seeker
+zombieUtilityWorker,Male Dark Seeker
+zombieUtilityWorkerFeral,Feral Male Dark Seeker
+zombieUtilityWorkerRadiated,Radiated Male Dark Seeker
+zombieWight,Alpha Dark Seeker
+zombieWightFeral,Feral Alpha Dark Seeker
+zombieWightRadiated,Radiated Alpha Dark Seeker
+zombieYo,Male Dark Seeker
+zombieYoFeral,Feral Male Dark Seeker
+zombieYoRadiated,Radiated Male Dark Seeker

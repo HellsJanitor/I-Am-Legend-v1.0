@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="NoTraders" />
+	<DisplayName value="No Traders"/>
+	<Description value="This mod removes traders and replaces the POI's with (mostly) abandoned buildings." />
+	<Author value="PULLMYLEVER" />
+	<Version value="1.0.0" />
+	<Website value="" />
+</xml>

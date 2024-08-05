@@ -1,0 +1,40 @@
+<Hells_Janitor>
+	<append xpath="/entitygroups">
+	<entitygroup name="EnemyAnimalsDesertNoVultures">
+		animalCoyote, 40		
+		animalSnake, 20
+		none, 40
+	</entitygroup>
+	
+	<entitygroup name="EnemyAnimalsNoDireWolves">
+		animalCoyote, 40		
+		animalWolf, 10
+		animalMountainLion, 5
+		none, 45
+	</entitygroup>
+	</append>
+	
+	<set xpath="//entitygroup[@name='ZombieScouts']">
+		animalRabbit
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombieScoutsFeral']">
+		animalRabbit
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombieScoutsRadiated']">
+		animalRabbit
+	</set>
+	
+	<set xpath="//entitygroup[@name='zombieScreamer']">animalRabbit</set>
+	<set xpath="//entitygroup[@name='zombieScreamerFeral']">animalRabbit</set>
+	<set xpath="//entitygroup[@name='zombieScreamerRadiated']">animalRabbit</set>
+	
+	<remove xpath="//entitygroup[starts-with(@name,'zombieMutated')]"/>
+	
+	<remove xpath="//entitygroup[starts-with(@name,'zombieDemolition')]"/>
+	
+	<csv xpath="//entitygroup/text()" delim="\n" op="remove" >zombieDemolition*</csv>
+	<csv xpath="//entitygroup/text()" delim="\n" op="remove" >zombieScreamer*</csv>
+	<csv xpath="//entitygroup/text()" delim="\n" op="remove" >zombieMutated*</csv>
+</Hells_Janitor>

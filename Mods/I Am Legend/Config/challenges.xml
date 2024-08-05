@@ -1,0 +1,15 @@
+<HellsJanitor>
+	<remove xpath="//challenge_group[@name='Traders']"/>
+	<remove xpath="//challenge[@name='meetRekt']"/>
+	<remove xpath="//challenge[@name='meetJen']"/>
+	<remove xpath="//challenge[@name='meetBob']"/>
+	<remove xpath="//challenge[@name='meetHugh']"/>
+	<remove xpath="//challenge[@name='meetJoel']"/>
+	<remove xpath="//challenge[@name='purchaseItems']"/>
+	<remove xpath="//challenge[@name='sellItems']"/>
+	<remove xpath="//challenge[@name='questComplete']"/>
+	<remove xpath="//challenge[@name='questTierComplete']"/>
+	<remove xpath="//challenge[@name='questTraderToTraderComplete']"/>
+	<remove xpath="//challenge[@name='killMutated']"/>
+	<remove xpath="//challenge[@name='killDemolitions']"/>
+</HellsJanitor>

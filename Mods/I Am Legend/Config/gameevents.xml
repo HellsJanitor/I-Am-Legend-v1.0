@@ -1,0 +1,126 @@
+<Hells_Janitor>
+	<set xpath="//action_sequence[@name='game_first_spawn']">
+		<property name="allow_user_trigger" value="false"/>
+		<property name="action_type" value="Game"/>
+		
+		<action class="Delay">
+			<property name="time" value="5"/>
+		</action>		
+		
+		<action class="AddQuest">
+			<property name="phase" value="1"/>
+			<property name="quest" value="tutorialTipQuest01"/>
+		</action>
+		
+		<action class="SetItemSlots">
+			<property name="phase" value="2"/>
+			<property name="items_location" value="Backpack"/>
+			<property name="items" value="drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,modGunFlashlight,gunMGT0PipeMachineGun,bedrollBlockVariantHelper,ammo762mmBulletBall"/>
+			<property name="item_counts" value="2,1,1,1,1-1,1,15"/>
+			<property name="slot_numbers" value="0,1,2,3,4,5,6"/>
+		</action>
+	</set>
+	
+	<set xpath="//action_sequence[@name='challenge_group_reward_basics']">
+		<property name="allow_user_trigger" value="false" />
+		<property name="action_type" value="Game" />
+		
+		<action class="AddSkillPoints">
+			<property name="skill_points" value="4" />
+		</action>
+		
+		<action class="Delay">
+			<property name="time" value="2" />
+		</action>
+		
+		<action class="AddQuest">
+			<property name="phase" value="1" />
+			<property name="quest" value="IAmLegendTip02" />
+		</action>
+	</set>
+	
+	<append xpath="/gameevents">
+		<action_sequence name="action_kill_nightspawns">
+			<property name="action_type" value="Game"/>
+			<property name="allow_user_trigger" value="true"/>
+			<requirement class="NearbyEntities">
+				<property name="max_distance" value="6000"/>
+			</requirement>
+			<action class="AddSpawnedEntitiesToGroup">
+				<property name="phase" value="0"/>
+				<property name="group_name" value="nightspawns"/>
+				<property name="entity_tags" value="zombie"/>
+				<property name="target_only" value="false"/>
+			</action>
+			<action class="AddEntitiesToGroup">
+				<property name="phase" value="0"/>
+				<property name="group_name" value="nightspawns"/>
+				<property name="entity_tags" value="zombie"/>
+				<property name="max_distance" value="6000"/>
+				<property name="target_only" value="false"/>
+			</action>
+			<action class="Kill">
+				<property name="phase" value="1"/>
+				<property name="target_group" value="nightspawns"/>
+			</action>
+		</action_sequence>
+		
+		<action_sequence name="nightspawn_horde_sequence">
+			<property name="action_type" value="Game"/>
+			<property name="allow_user_trigger" value="true"/>
+			<action class="SpawnEntity">
+				<property name="entity_group" value="SleeperGSList"/>
+				<property name="spawn_count" value="8"/>
+				<property name="air_spawn" value="false"/>
+				<property name="add_to_group" value="zombies"/>
+				<property name="safe_spawn" value="true"/>
+				<property name="min_distance" value="30"/>
+				<property name="max_distance" value="50"/>
+				<property name="spawn_type" value="WanderingHorde"/>
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_group" value="SleeperGSList"/>
+				<property name="spawn_count" value="8"/>
+				<property name="air_spawn" value="false"/>
+				<property name="add_to_group" value="zombies"/>
+				<property name="safe_spawn" value="true"/>
+				<property name="min_distance" value="30"/>
+				<property name="max_distance" value="50"/>
+				<property name="spawn_type" value="WanderingHorde"/>
+				<requirement class="Gamestage">
+					<property name="operation" value="GTE"/>
+					<property name="game_stage" value="50"/>
+				</requirement>
+			</action>
+			<action class="SpawnEntity">
+				<property name="entity_group" value="SleeperGSList"/>
+				<property name="spawn_count" value="8"/>
+				<property name="air_spawn" value="false"/>
+				<property name="add_to_group" value="zombies"/>
+				<property name="safe_spawn" value="true"/>
+				<property name="min_distance" value="30"/>
+				<property name="max_distance" value="50"/>
+				<property name="spawn_type" value="WanderingHorde"/>
+				<requirement class="Gamestage">
+					<property name="operation" value="GTE"/>
+					<property name="game_stage" value="100"/>
+				</requirement>
+			</action>
+			<action class="AddEntitiesToGroup">
+				<property name="phase" value="0"/>
+				<property name="group_name" value="zombies"/>
+				<property name="max_distance" value="50"/>
+			</action>
+		</action_sequence>
+	</append>
+	
+	<set xpath="//action_sequence[@name='challenge_group_reward_homesteading']">
+		<!-- <property name="allow_user_trigger" value="false" /> -->
+		<property name="action_type" value="Game" />
+		
+		<action class="AddItems">
+			<property name="added_items" value="oldCash" />
+			<property name="added_item_counts" value="2500" />
+		</action>
+	</set>
+</Hells_Janitor>

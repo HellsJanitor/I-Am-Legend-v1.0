@@ -1,0 +1,30 @@
+<Hells_Janitor>
+	<set xpath="//biome//spawn[@entitygroup='EnemyAnimalsWasteland']/@time">Night</set>
+	<set xpath="//biome//spawn[@time='Any' and (contains(@entitygroup,'SnowZombies'))]/@time">Night</set>
+	<set xpath="//biome//spawn[@time='Any' and (contains(@entitygroup,'ZombiesAll'))]/@time">Night</set>
+	<set xpath="//biome//spawn[@entitygroup='EnemyAnimalsDesert']/@entitygroup">EnemyAnimalsDesertNoVultures</set>
+	<set xpath="//biome//spawn[@entitygroup='EnemyAnimalsBurntForestAny']/@entitygroup">EnemyAnimalsNoDireWolves</set>
+	<set xpath="//biome//spawn[@entitygroup='EnemyAnimalsBurntForestNight']/@entitygroup">EnemyAnimalsNoDireWolves</set>
+	<set xpath="//biome//spawn[@entitygroup='EnemyAnimalsForest']/@entitygroup">EnemyAnimalsNoDireWolves</set>
+	<set xpath="//biome//spawn[@time='Day']/@maxcount">0</set>	
+	
+	<set xpath="//biome//spawn[@maxcount='1' and not (@time='Any')]/@maxcount">5</set>
+	<set xpath="//biome//spawn[@maxcount='2' and not (@time='Any')]/@maxcount">10</set>
+	<set xpath="//biome//spawn[@maxcount='3' and not (@time='Any')]/@maxcount">15</set>
+	<set xpath="//biome//spawn[@maxcount='4' and not (@time='Any')]/@maxcount">20</set>
+	
+	<set xpath="//biome//spawn[@time='Night' and (contains(@entitygroup,'Animals'))]/@maxcount">2</set>
+	<set xpath="//biome//spawn[@time='Night' and (contains(@entitygroup,'WildGame'))]/@maxcount">2</set>
+	
+	<set xpath="//biome//spawn[@time='Any' and (contains(@entitygroup,'Animals'))]/@maxcount">2</set>
+	<set xpath="//biome//spawn[@time='Any' and (contains(@entitygroup,'WildGame'))]/@maxcount">2</set>
+	
+	<set xpath="//biome//spawn[@time='Night' and not (contains(@entitygroup,'Animals'))]/@respawndelay">0.001</set>
+	<set xpath="//biome//spawn[@time='Night' and (contains(@entitygroup,'Animals'))]/@respawndelay">1</set>
+	<set xpath="//biome//spawn[@time='Night' and (contains(@entitygroup,'WildGame'))]/@respawndelay">1</set>
+	
+	<remove xpath="//entityspawner[@name='Scouts']"/>
+	
+	<set xpath="//entityspawner/day[@value='*']//property[@name='Time']/@value">Night</set>
+	<set xpath="//entityspawner/day[@value='*']//property[@name='AttackPlayerAtOnce']/@value">true</set>
+</Hells_Janitor>

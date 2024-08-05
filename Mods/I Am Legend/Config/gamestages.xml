@@ -1,0 +1,10 @@
+<HellsJanitor>
+	<set xpath="//spawner[@name='WanderingHorde']/gamestage/spawn/@num">0</set>
+	<set xpath="//spawner[@name='WanderingHorde']/gamestage/spawn/@maxAlive">0</set>
+	<set xpath="//spawner[@name='WanderingHorde']/gamestage/spawn/@duration">0</set>
+	
+	<set xpath="//spawner[contains(@name,'Screamer')]/gamestage/spawn/@group">animalRabbit</set>
+	<set xpath="//spawner[contains(@name,'Mutated')]/gamestage/spawn/@group">animalRabbit</set>
+	<set xpath="//spawner[contains(@name,'Demolition')]/gamestage/spawn/@group">animalRabbit</set>
+</HellsJanitor>
+

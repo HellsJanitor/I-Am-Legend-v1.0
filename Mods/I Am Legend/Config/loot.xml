@@ -1,0 +1,25 @@
+<Hells_Janitor>
+
+	<set xpath="//lootgroup/item[@name='casinoCoin']/@name">oldCash</set>
+	<set xpath="//lootcontainer/item[@name='casinoCoin']/@name">oldCash</set>
+	
+	<remove xpath="//lootgroup//item[@name='modArmorHelmetLight']"/>
+	<remove xpath="//lootgroup//item[@name='modArmorHelmetLightSchematic']"/>
+	<remove xpath="//lootgroup[@name='groupQuestHelmetLightSchematic']"/>
+	
+	<remove xpath="//lootgroup[@name='groupQuestNightVisionGoggles']"/>
+	<remove xpath="//lootgroup//item[@name='modArmorNightVision']"/>
+	
+	<set xpath="//lootgroup//item[@name='gunMGT3M60']">gunMGT2TacticalAR</set>
+	<set xpath="//lootgroup//item[@name='gunShotgunT3AutoShotgun']">gunShotgunT2PumpShotgun</set>
+	<set xpath="//lootgroup//item[@name='gunRifleT3SniperRifle']">gunRifleT2LeverActionRifle</set>
+	
+	<remove xpath="//lootgroup[@name='groupDewCollectorLoot03']//item[@name='toolDewGatherer']"/>
+	<remove xpath="//lootgroup[@name='groupDewCollectorLoot03']//item[@name='toolDewTarp']"/>
+	<remove xpath="//lootgroup[@name='groupDewCollectorLoot03']//item[@name='toolDewFilter']"/>
+	<append xpath="//lootgroup[@name='groupDewCollectorLoot01']">
+	<item name="toolDewGatherer" loot_prob_template="high"/>
+	<item name="toolDewTarp" loot_prob_template="high"/>
+	<item name="toolDewFilter" loot_prob_template="high"/>
+	</append>
+</Hells_Janitor>

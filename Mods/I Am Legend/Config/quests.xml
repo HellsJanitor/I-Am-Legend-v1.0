@@ -1,0 +1,66 @@
+<Hells_Janitor>
+	
+	<insertBefore xpath="//quest[@id='treasure_taylor']">
+		<quest id="tutorialTipQuest01">
+			<property name="group_name_key" value="quest_WhiteRiverCitizen"/>
+			<property name="name_key" value="tutorialTipQuest01_title"/>
+			<property name="subtitle_key" value=""/>
+			<property name="description_key" value="tutorialTipQuest01"/>
+			<property name="icon" value="ui_game_symbol_map_trader"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="medium"/>
+			<property name="shareable" value="false"/>
+			
+			<action type="ShowMessageWindow">
+				<property name="message" value="tutorialTipQuest01"/>
+				<property name="title" value="tutorialTipQuest01_title"/>
+				<property name="delay" value="3"/>
+			</action>
+		</quest>
+		
+		<quest id="IAmLegendTip02">
+			<property name="group_name_key" value="quest_WhiteRiverCitizen"/>
+			<property name="name_key" value="IAmLegendTip_title"/>
+			<property name="subtitle_key" value=""/>
+			<property name="description_key" value="IAmLegendTip"/>
+			<property name="icon" value="ui_game_symbol_map_trader"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="medium"/>
+			<property name="shareable" value="false"/>
+			
+			<action type="ShowMessageWindow">
+				<property name="message" value="IAmLegendTip02"/>
+				<property name="title" value="IAmLegendTip02_title"/>
+				<property name="delay" value="3"/>
+			</action>
+		</quest>
+		
+		<quest id="tutorialTipQuest02">
+			<property name="group_name_key" value="quest_WhiteRiverCitizen"/>
+			<property name="name_key" value="tutorialTipQuest02_title"/>
+			<property name="subtitle_key" value=""/>
+			<property name="description_key" value="tutorialTipQuest02"/>
+			<property name="icon" value="ui_game_symbol_map_trader"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="medium"/>
+			<property name="shareable" value="false"/>
+			
+			<action type="ShowMessageWindow">
+				<property name="message" value="tutorialTipQuest02"/>
+				<property name="title" value="tutorialTipQuest02_title"/>
+				<property name="delay" value="3"/>
+			</action>
+		</quest>		
+	</insertBefore>	
+	
+	<remove xpath="//quest[starts-with (@id,'challengegroup_reward')]//reward[@type='LootItem']"/>
+	<remove xpath="//quest[starts-with (@id,'quest_reward')]//reward[@type='LootItem']"/>
+	
+	<!-- <append xpath="//quest[starts-with (@id,'challengegroup_reward')]"> -->
+		<!-- <reward type="Item" id="oldCash" value="10000"/> -->
+	<!-- </append> -->
+	
+	<!-- <append xpath="//quest[starts-with (@id,'quest_reward')]"> -->
+		<!-- <reward type="Item" id="oldCash" value="10000"/> -->
+	<!-- </append> -->
+</Hells_Janitor>

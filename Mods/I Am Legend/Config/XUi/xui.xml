@@ -1,0 +1,7 @@
+<Redbeardt>	
+	<!-- *** stat bar positions *** -->
+	<insertAfter xpath="//window_group/window[@name='HUDLeftStatBars']">
+		<window name="HUDCenterStatBars" anchor="CenterBottom"/>
+		<window name="HUDTopLeftStatBars"/>
+	</insertAfter>
+</Redbeardt>

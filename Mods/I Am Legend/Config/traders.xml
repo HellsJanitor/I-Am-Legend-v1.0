@@ -1,0 +1,154 @@
+<Hells_Janitor>
+	<setattribute xpath="/traders" name="currency_item">oldCash</setattribute>
+	
+	<remove xpath="//trader_item_group[@name='groupArmorMods']//item[@name='modArmorHelmetLight']"/>
+	<remove xpath="//trader_item_group[@name='schematicsModsCommon']//item[@name='modArmorHelmetLightSchematic']"/>
+	<remove xpath="//trader_item_group//item[@name='modArmorNightVision']"/>
+	
+	<set xpath="//trader_item_group//item[@name='gunMGT3M60']/@name">gunMGT2TacticalAR</set>
+	<set xpath="//trader_item_group//item[@name='gunShotgunT3AutoShotgun']/@name">gunShotgunT2PumpShotgun</set>
+	<set xpath="//trader_item_group//item[@name='gunRifleT3SniperRifle']/@name">gunRifleT2LeverActionRifle</set>
+	
+	<remove xpath="//trader_info[@id='9']"/>
+	<append xpath="/traders">
+		<trader_info id="9" reset_interval="1" override_buy_markup="3" allow_sell="false">
+			<trader_items count="all">
+				<item name="questRewardT1BookBundle" count="1"/>
+				<item name="questRewardT1SkillMagazineBundle" count="1"/>
+			
+				<item name="modArmorCoolingMeshSchematic" count="1"/>
+				<item name="modArmorImprovedFittingsSchematic" count="1"/>
+				<item name="modArmorInsulatedLinerSchematic" count="1"/>
+				<item name="modArmorMuffledConnectorsSchematic" count="1"/>
+				<item name="modArmorPlatingBasicSchematic" count="1"/>
+				<item name="modArmorStoragePocketSchematic" count="1"/>
+				<item name="modGunBarrelExtenderSchematic" count="1"/>
+				<item name="modGunDuckbillSchematic" count="1"/>
+				<item name="modGunFlashlightSchematic" count="1"/>
+				<item name="modGunForegripSchematic" count="1"/>
+				<item name="modGunMeleeTheHunterSchematic" count="1"/>
+				<item name="modGunRetractingStockSchematic" count="1"/>
+				<item name="modGunScopeSmallSchematic" count="1"/>
+				<item name="modGunTriggerGroupSemiSchematic" count="1"/>
+				<item name="modMeleeClubBurningShaftSchematic" count="1"/>
+				<item name="modMeleeErgonomicGripSchematic" count="1"/>
+				<item name="modMeleeGraveDiggerSchematic" count="1"/>
+				<item name="modMeleeStructuralBraceSchematic" count="1"/>
+				<item name="modMeleeTemperedBladeSchematic" count="1"/>
+				<item name="modMeleeWeightedHeadSchematic" count="1"/>
+				<item name="modMeleeWoodSplitterSchematic" count="1"/>
+				<item name="modShotgunSawedOffBarrelSchematic" count="1"/>
+			
+				<item name="modArmorBandolierSchematic" count="1"/>
+				<item name="modArmorDoubleStoragePocketSchematic" count="1"/>
+				<item name="modFuelTankSmallSchematic" count="1"/>
+				<item name="modGunBipodSchematic" count="1"/>
+				<item name="modGunBowArrowRestSchematic" count="1"/>
+				<item name="modGunChokeSchematic" count="1"/>
+				<item name="modGunCrippleEmSchematic" count="1"/>
+				<item name="modGunMagazineExtenderSchematic" count="1"/>
+				<item name="modGunMuzzleBrakeSchematic" count="1"/>
+				<item name="modGunReflexSightSchematic" count="1"/>
+				<item name="modGunScopeMediumSchematic" count="1"/>
+				<item name="modGunTriggerGroupBurst3Schematic" count="1"/>
+				<item name="modMeleeBunkerBusterSchematic" count="1"/>
+				<item name="modMeleeClubBarbedWireSchematic" count="1"/>
+				<item name="modMeleeFortifyingGripSchematic" count="1"/>
+				<item name="modMeleeIronBreakerSchematic" count="1"/>
+				<item name="modMeleeSerratedBladeSchematic" count="1"/>
+			
+				<item name="modArmorAdvancedMuffledConnectorsSchematic" count="1"/>
+				<item name="modArmorCustomizedFittingsSchematic" count="1"/>
+				<item name="modArmorImpactBracingSchematic" count="1"/>
+				<item name="modArmorPlatingReinforcedSchematic" count="1"/>
+				<item name="modArmorTripleStoragePocketSchematic" count="1"/>
+				<item name="modArmorQuadStoragePocketSchematic" count="1"/>
+				<item name="modArmorWaterPurifierSchematic" count="1"/>
+				<item name="modFuelTankLargeSchematic" count="1"/>
+				<item name="modGunBowPolymerStringSchematic" count="1"/>
+				<item name="modGunLaserSightSchematic" count="1"/>
+				<item name="modGunMeleeRadRemoverSchematic" count="1"/>
+				<item name="modGunScopeLargeSchematic" count="1"/>
+				<item name="modGunSoundSuppressorSilencerSchematic" count="1"/>
+				<item name="modGunTriggerGroupAutomaticSchematic" count="1"/>
+				<item name="modMeleeClubMetalSpikesSchematic" count="1"/>
+				<item name="modRoboticDroneCargoModSchematic" count="1"/>
+				<item name="modRoboticDroneMedicModSchematic" count="1"/>
+				<item name="modRoboticDroneHeadlampModSchematic" count="1"/>
+				<item name="modRoboticDroneArmorPlatingModSchematic" count="1"/>
+				<item name="modRoboticDroneMoraleBoosterModSchematic" count="1"/>
+			
+				<item name="ammoBundleArrowIron" count="1"/>
+				<item name="ammoBundle9mmBulletBall" count="1"/>
+				<item name="ammoBundleShotgunShell" count="1"/>
+				<item name="ammoBundle762mmBulletBall" count="1"/>
+				<item name="ammoBundleJunkTurretRegular" count="1"/>
+			
+				<item name="ammoBundleArrowSteelAP" count="1"/>
+				<item name="ammoBundle9mmBulletAP" count="1"/>
+				<item name="ammoBundleShotgunSlug" count="1"/>
+				<item name="ammoBundle762mmBulletAP" count="1"/>
+				<item name="ammoBundleJunkTurretAP" count="1"/>
+			
+				<item name="ammoArrowIron" count="150"/>
+				<item name="ammo9mmBulletBall" count="300"/>
+				<item name="ammoShotgunShell" count="150"/>
+				<item name="ammo762mmBulletBall" count="150"/>
+				<item name="ammoJunkTurretRegular" count="1000"/>
+			
+				<item name="ammoArrowSteelAP" count="150"/>
+				<item name="ammo9mmBulletAP" count="300"/>
+				<item name="ammoShotgunSlug" count="150"/>
+				<item name="ammo762mmBulletAP" count="150"/>
+				<item name="ammoJunkTurretAP" count="1000"/>
+			
+				<item name="thrownAmmoMolotovCocktail" count="20"/>
+				<item name="thrownGrenade" count="25"/>
+				<item name="thrownGrenadeContact" count="25"/>
+				<item name="thrownTimedCharge" count="10"/>
+				<item name="mineAirFilter" count="10"/>
+			
+				<item name="modArmorCigar" count="1"/>
+				<item name="modArmorBandolier" count="1"/>
+				<item name="modArmorTripleStoragePocket" count="1"/>
+				<item name="modArmorImpactBracing" count="1"/>
+			
+				<item name="modGunCrippleEm" count="1"/>
+				<item name="modGunSoundSuppressorSilencer" count="1"/>
+				<item name="modGunShotgunTubeExtenderMagazine" count="1"/>
+				<item name="modGunDrumMagazineExtender" count="1"/>
+				<item name="modGunMeleeRadRemover" count="1"/>
+			
+				<item name="modArmorStealthBoots" count="1"/>
+				<item name="modArmorWaterPurifier" count="1"/>
+				<item name="modArmorQuadStoragePocket" count="1"/>
+				<item name="modArmorTreasureHunter" count="1"/>
+				<item name="modArmorNightVision" count="1"/>
+			
+				<item name="modArmorPerception" count="1"/>
+				<item name="modArmorStrength" count="1"/>
+				<item name="modArmorFortitude" count="1"/>
+				<item name="modArmorAgility" count="1"/>
+				<item name="modArmorIntellect" count="1"/>
+			
+				<item name="toolDewFilter" count="1"/>
+				<item name="plantedGraceCorn1Schematic" count="1"/>
+				<item name="solarCell" count="3"/>
+				<item name="toolForgeCrucible" count="1"/>
+				<item name="resourceLegendaryParts" count="4"/>
+			
+				<item name="questRewardLegendarySteelSpearCraftingBundle" count="1"/>
+				<item name="questRewardLegendarySteelClubCraftingBundle" count="1"/>
+				<item name="questRewardLegendarySteelKnuckleCraftingBundle" count="1"/>
+				<item name="questRewardLegendaryMacheteCraftingBundle" count="1"/>
+				<item name="questRewardLegendaryBatonCraftingBundle" count="1"/>
+			
+				<item name="questRewardLegendaryRifleCraftingBundle" count="1"/>
+				<item name="questRewardLegendaryShotgunCraftingBundle" count="1"/>
+				<item name="questRewardLegendaryMachineGunCraftingBundle" count="1"/>
+				<item name="questRewardLegendaryHandgunCraftingBundle" count="1"/>
+				<item name="questRewardLegendaryRoboticsCraftingBundle" count="1"/>
+			</trader_items>
+		</trader_info>
+	</append>
+</Hells_Janitor>

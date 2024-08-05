@@ -1,0 +1,13 @@
+<HellsJanitor>
+	<append xpath="/blocks">
+		<block name="cntVendingMachineChallengeRewards">
+			<property name="Extends" value="cntVendingMachine2Broken"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="cntVendingMachine"/>
+			<property name="Class" value="VendingMachine"/>
+			<property name="Model" value="Entities/Commercial/vendingMachinePlayerPrefab"/>
+			<property name="TraderID" value="9"/>
+			<property name="SortOrder2" value="0005"/>
+		</block>
+	</append>
+</HellsJanitor>

@@ -1,0 +1,10 @@
+<Hells_Janitor>
+	<set xpath="//item_display_info[@display_type='waterGrandpasAwesomeSauce']">
+		<display_entry name="dIntellect" title_key="statShowIntellect" display_leading_plus="true"/>
+		<display_entry name="dStrength" title_key="statShowStrength" display_leading_plus="true"/>
+		<display_entry name="dAgility" title_key="statShowAgility" display_leading_plus="true"/>
+		<display_entry name="dPerception" title_key="statShowPerception" display_leading_plus="true"/>
+		<display_entry name="dFortitude" title_key="statShowFortitude" display_leading_plus="true"/>
+		<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+	</set>
+</Hells_Janitor>
