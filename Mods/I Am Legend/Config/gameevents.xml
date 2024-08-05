@@ -15,9 +15,9 @@
 		<action class="SetItemSlots">
 			<property name="phase" value="2"/>
 			<property name="items_location" value="Backpack"/>
-			<property name="items" value="drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,modGunFlashlight,gunMGT0PipeMachineGun,bedrollBlockVariantHelper,ammo762mmBulletBall"/>
-			<property name="item_counts" value="2,1,1,1,1-1,1,15"/>
-			<property name="slot_numbers" value="0,1,2,3,4,5,6"/>
+			<property name="items" value="drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,modGunFlashlight,bedrollBlockVariantHelper"/>
+			<property name="item_counts" value="2,1,1,1,1"/>
+			<property name="slot_numbers" value="0,1,2,3,4"/>
 		</action>
 	</set>
 	
@@ -36,6 +36,11 @@
 		<action class="AddQuest">
 			<property name="phase" value="1" />
 			<property name="quest" value="IAmLegendTip02" />
+		</action>
+		
+		<action class="AddItems">
+			<property name="added_items" value="StartWeaponBundle" />
+			<property name="added_item_counts" value="1" />
 		</action>
 	</set>
 	

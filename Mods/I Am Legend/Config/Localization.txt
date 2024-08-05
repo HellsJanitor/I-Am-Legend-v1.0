@@ -18,6 +18,9 @@ perkGreatHeistAdrenalineFallLongDesc,Adrenaline Fall: Use adrenaline to your ful
 perkLuckyLooterDukesDesc,Find more cash in loot.
 perkLuckyLooterDukesLongDesc,"Cash: If you know where to look, you can find money just laying around. Find more cash in loot."
 
+StartWeaponBundle,Starter Weapon Ticket
+StartWeaponBundleDesc,Use this ticket to craft your starter weapon bundle.
+
 zombieArlene,Female Dark Seeker
 zombieArleneFeral,Feral Female Dark Seeker
 zombieArleneRadiated,Radiated Female Dark Seeker

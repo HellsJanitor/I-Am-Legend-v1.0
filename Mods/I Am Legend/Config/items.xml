@@ -2,24 +2,23 @@
 	<remove xpath="//item[@name='modArmorHelmetLightSchematic']"/>
 	
 	<append xpath="/items">
-		<item name="Backpack">
-			<property name="CustomIcon" value="backpackMedium"/>
+		<item name="StartWeaponBundle">
+			<property name="CustomIcon" value="adminQuestTicketMaster"/>
+			<property name="CustomIconTint" value="00ff00"/>
 			<property name="ItemTypeIcon" value="bundle"/>
-			<property name="HoldType" value="45"/>
-			<property name="Meshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="DescriptionKey" value="StartWeaponBundleDesc"/>
+			<property name="HoldType" value="21"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Mmetal"/>
-			<property name="Stacknumber" value="1"/>
-			<!-- STK ammobundle high -->
+			<property name="Material" value="Mpaper"/>
+			<property name="CustomIcon" value="questMaster"/>
+			<property name="Stacknumber" value="1"/> <!-- STK book -->
 			<property name="EconomicValue" value="0"/>
-			<property class="Action0">
-				<property name="Class" value="OpenBundle"/>
-				<property name="Delay" value="0"/>
-				<property name="Use_time" value="0"/>
-				<property name="Sound_start" value="UseActions/open_backpack"/>
-				<property name="Create_item" value="drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,modGunFlashlight,gunMGT0PipeMachineGun,meleeToolRepairT0StoneAxe,bedrollBlockVariantHelper,ammo762mmBulletBall"/>
-				<property name="Create_item_count" value="2,1,1,1,1,1,1,15"/>
-			</property>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Weight" value="2"/>
+			<property name="ScrapTimeOverride" value="10.0"/>
+			<property name="Group" value="Special Items"/>
 		</item>
 	</append>
 	

@@ -1,3 +1,25 @@
 <Hells_Janitor>
 	<remove xpath="//recipe[@name='modArmorHelmetLight']"/>
+	
+	<append xpath="/recipes">
+		<recipe name="questRewardPipePistolBundle" count="1" craft_exp_gain="0">
+			<ingredient name="StartWeaponBundle" count="1"/>
+		</recipe>
+		
+		<recipe name="questRewardPipeShotgunBundle" count="1" craft_exp_gain="0">
+			<ingredient name="StartWeaponBundle" count="1"/>
+		</recipe>
+		
+		<recipe name="questRewardPipeRifleBundle" count="1" craft_exp_gain="0">
+			<ingredient name="StartWeaponBundle" count="1"/>
+		</recipe>
+		
+		<recipe name="questRewardPipeMachineGunBundle" count="1" craft_exp_gain="0">
+			<ingredient name="StartWeaponBundle" count="1"/>
+		</recipe>
+		
+		<recipe name="questRewardPipeBatonBundle" count="1" craft_exp_gain="0">
+			<ingredient name="StartWeaponBundle" count="1"/>
+		</recipe>
+	</append>
 </Hells_Janitor>

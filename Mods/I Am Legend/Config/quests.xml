@@ -53,8 +53,8 @@
 		</quest>		
 	</insertBefore>	
 	
-	<remove xpath="//quest[starts-with (@id,'challengegroup_reward')]//reward[@type='LootItem']"/>
-	<remove xpath="//quest[starts-with (@id,'quest_reward')]//reward[@type='LootItem']"/>
+	<!-- <remove xpath="//quest[starts-with (@id,'challengegroup_reward')]//reward[@type='LootItem']"/> -->
+	<!-- <remove xpath="//quest[starts-with (@id,'quest_reward')]//reward[@type='LootItem']"/> -->
 	
 	<!-- <append xpath="//quest[starts-with (@id,'challengegroup_reward')]"> -->
 		<!-- <reward type="Item" id="oldCash" value="10000"/> -->
