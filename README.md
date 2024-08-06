@@ -22,6 +22,7 @@ THERE IS NO GOD!
 
 >[!TIP]
 >EAC must be DISABLED.
+>DO NOT DELETE THE EXISTING MODS FOLDER IN YOUR GAME DIRECTORY. It contains a file that is essential for the mod to run.
 >The download .zip file contains a folder called `\Mods`. You can either:
 >1. Copy this folder into your game directory, usually `C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die`
 >2. Copy the folder into `%AppData%\Roaming\7DaysToDie`
