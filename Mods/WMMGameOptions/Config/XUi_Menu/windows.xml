@@ -23,10 +23,10 @@
 		<!-- <gameoption name="CustomTraderSellPriceMultiplier" title="goTraderSellPriceMultiplier" value_wrap="false" value_type="int" values="1, 2, 3, 4, 5" display_names="" value_localization_prefix="goLandClaimOnlineDurabilityModifierValue" default_value="1" /> -->
 		<!-- <gameoption name="CustomTraderQuestsPerTier" title="goTraderQuestsPerTier" value_wrap="false" value_type="int" values="5, 7, 10, 15, 20, 30" display_names="" value_localization_prefix="" default_value="10" /> -->
 		<gameoption name="CustomItemsDegradeOnRepair" title="goItemsDegradeOnRepair" value_wrap="false" value_type="bool" values="" display_names="" value_localization_prefix="" default_value="true" />
-		<gameoption name="CustomSleeperMultiplier" title="goSleeperMultiplier" value_wrap="false" value_type="int" values="1, 2, 3" display_names="goSleeperMultiplier2,goSleeperMultiplier3,goSleeperMultiplier4" value_localization_prefix="" default_value="0"  />
+		<gameoption name="CustomSleeperMultiplier" title="goSleeperMultiplier" value_wrap="false" value_type="int" values="1, 2, 3" display_names="goSleeperMultiplier2,goSleeperMultiplier3,goSleeperMultiplier4" value_localization_prefix="" default_value="1"  />
 		<gameoption name="CustomItemsInLootContainer" title="goItemsInLootContainer" value_wrap="false" value_type="bool" values="" display_names="" value_localization_prefix="" default_value="true" />
 		<gameoption name="CustomFeralSenseRangeDay" title="goFeralSenseRangeDay" value_wrap="false" value_type="int" values="0, 1, 2, 3, 4, 5" display_names="goFeralSenseRange0, goFeralSenseRange1, goFeralSenseRange2, goFeralSenseRange3, goFeralSenseRange4, goFeralSenseRange5" value_localization_prefix="" default_value="0"  />
-		<gameoption name="CustomFeralSenseRangeNight" title="goFeralSenseRangeNight" value_wrap="false" value_type="int" values="5" display_names="goFeralSenseRange5" value_localization_prefix="" default_value="0"  />
+		<gameoption name="CustomFeralSenseRangeNight" title="goFeralSenseRangeNight" value_wrap="false" value_type="int" values="5" display_names="goFeralSenseRange5" value_localization_prefix="" default_value="5"  />
 		</grid>
 	</rect>
 	<!-- <rect tab_key="xuiWinchester2"> -->
